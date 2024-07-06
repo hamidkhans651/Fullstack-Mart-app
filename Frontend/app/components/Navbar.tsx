@@ -5,14 +5,13 @@ import { categoryieslinks } from '../constants'
 
 const Navbar = () => {
   return (
-    <main>
-
-      <div className='flex justify-end  bg-[#111111]'>
-        <nav className='max-lg:hidden'>
-        <ul className='flex gap-3 pr-10 pt-1 pb-1 text-lg  items-center'>
+    <main >
+      <div className='flex justify-end bg-[#111111]'>
+        <nav className='max-md:hidden p-2  '>
+        <ul className='flex gap-3 justify-end items-center pr-10'>
           {navlinks.map((item) =>
             <li key={item.label}>
-              <a href="{item.label}" className='font-montserrat text-sm font-semibold text-slate-gra'>
+              <a href="{item.label}" className='font-Helvetica-Now-Text text-white text-xs leading-6'>
                 {item.label}
               </a>
             </li> 
@@ -20,15 +19,17 @@ const Navbar = () => {
         </ul>
         </nav>
       </div>
-      <div className='flex justify-center pr-10 pt-1 text-lg  pb-11 bg-[#1F1F21]'>
-        <ul className='flex gap-3 '>
+      <div className='flex relative justify-center items-center p-4 bg-[#1F1F21]'>
+        <ul id='catogrieslinks' className='flex gap-3   '>
           {categoryieslinks.map((links) =>
             <li key={links.label}>
-              <a href="{item.label}" className='font-montserrat text-sm font-semibold text-slate-gra'>
+              <a href="{item.label}" className='font-helvetica-now-text-medium text-white text-base leading-7'>
                 {links.label}
               </a>
             </li>
           )}
+
+
         </ul>
 
       </div>

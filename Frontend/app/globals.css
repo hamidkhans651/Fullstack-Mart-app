@@ -16,6 +16,29 @@
   }
 }
 
+.font-helvetica-now-text-medium {
+  font-family: 'Helvetica Now Text', sans-serif;
+  font-weight: 500;
+}
+
+.font-helvetica-now-text-hero {
+  font-family: 'Helvetica Now Text', sans-serif;
+  font-weight: 200;
+}
+
+.font-helvetica-WIN-ON-AIR {
+  font-family: 'Helvetica Now Text', sans-serif;
+  font-weight: 200;
+}
+
+
+
+.Helvetica-Now-Text {
+  font-family: 'Helvetica Now Text',Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
