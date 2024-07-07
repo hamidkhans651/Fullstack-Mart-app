@@ -27,11 +27,16 @@
 }
 
 .font-helvetica-WIN-ON-AIR {
-  font-family: 'Helvetica Now Text', sans-serif;
-  font-weight: 200;
+  font-family: 'Nike Futura ND', sans-serif;
+  font-weight: 900;
+
 }
+/* 
+Nike Futura ND - 500
 
-
+Family
+"Nike Futura ND", "Helvetica Now Text Medium", Helvetica, Arial, sans-serif
+ */
 
 .Helvetica-Now-Text {
   font-family: 'Helvetica Now Text',Helvetica, Arial, sans-serif;
@@ -54,3 +59,5 @@ body {
     text-wrap: balance;
   }
 }
+
+

@@ -2,7 +2,7 @@
 services:
   nextjs-app:
     build:
-      context: ./
+      context: ./app
       dockerfile: dockerfile.frontend
     ports:
       - '3000:3000'

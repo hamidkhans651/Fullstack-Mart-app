@@ -23,7 +23,7 @@ const Navbar = () => {
         <ul id='catogrieslinks' className='flex gap-3   '>
           {categoryieslinks.map((links) =>
             <li key={links.label}>
-              <a href="{item.label}" className='font-helvetica-now-text-medium text-white text-base leading-7'>
+              <a href="{item.label}" className='font-helvetica-now-text-medium font-extrabold text-white text-base leading-7'>
                 {links.label}
               </a>
             </li>

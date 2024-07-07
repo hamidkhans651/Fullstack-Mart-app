@@ -2,7 +2,8 @@ import Image from "next/image";
 import LandingPage from "./components/LandingPage";
 import Navbar from "./components/Navbar";
 import ShopByCategory from "./components/ShopByCategory";
-import ShopAir from "./components/ShopAir";
+import ShopAir from "./components/HeroImages";
+import HeroImages from "./components/HeroImages";
 
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
 <LandingPage/>
 </section>
 <section className="bg-[#1F1F21]">
-
+<HeroImages/>
 </section>
 
 <section className="bg-[#1F1F21]">
