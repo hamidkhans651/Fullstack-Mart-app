@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import ShopByCategory from "./components/ShopByCategory";
 import ShopAir from "./components/HeroImages";
 import HeroImages from "./components/HeroImages";
+import Footer from "./components/Footer";
 
 
 export default function Home() {
@@ -26,7 +27,7 @@ export default function Home() {
 </section>
 
 <section className="bg-[#1F1F21]">
-  
+  <Footer/>
 </section>
 </div>
 

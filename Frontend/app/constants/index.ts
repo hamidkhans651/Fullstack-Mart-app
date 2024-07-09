@@ -1,6 +1,9 @@
 // import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
 // import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
+import { link } from "fs";
+import { title } from "process";
+
 export const categoryieslinks = [
     { href: "New & Featured", label: "New & Featured " },
     { href: "Men", label: "Men" },
@@ -14,7 +17,7 @@ export const navlinks = [
     { href: "Help", label: "Help | " },
     { href: "Join Us", label: "Join Us | " },
     { href: "Sign In", label: "Sign In  " },
-  
+
 ];
 // export const shoes = [
 //     {
@@ -96,31 +99,52 @@ export const statistics = [
 
 export const footerLinks = [
     {
-        title: "Products",
+        title: "Resources",
         links: [
-            { name: "Air Force 1", link: "/" },
-            { name: "Air Max 1", link: "/" },
-            { name: "Air Jordan 1", link: "/" },
-            { name: "Air Force 2", link: "/" },
-            { name: "Nike Waffle Racer", link: "/" },
-            { name: "Nike Cortez", link: "/" },
+            { name: "Gift Cards", link: "/" },
+            { name: "Find a Store", link: "/" },
+            { name: "Become a Member", link: "/" },
+            { name: "Nike x NBA", link: "/" },
+            { name: "Nike Journal", link: "/" },
+            { name: "Site Feedback", link: "/" },
         ],
     },
     {
         title: "Help",
         links: [
-            { name: "About us", link: "/" },
-            { name: "FAQs", link: "/" },
-            { name: "How it works", link: "/" },
-            { name: "Privacy policy", link: "/" },
+            { name: "Get Help", link: "/" },
+            { name: "Order Status", link: "/" },
+            { name: "Shiping and Delivery", link: "/" },
+            { name: "Returns", link: "/" },
+            { name: "Order Cancellation", link: "/" },
+            { name: "Payment Options", link: "/" },
+            { name: "Gift Card Balance", link: "/" },
+            { name: "Contact Us", link: "/" },
             { name: "Payment policy", link: "/" },
+        ],
+
+    },
+    {
+        title: "Company",
+        links: [
+            { name: "About Nike", link: "mailto:customer@nike.com" },
+            { name: "News", link: "tel:+92554862354" },
+            { name: "Careers", link: "tel:+92554862354" },
+            { name: "Investors", link: "tel:+92554862354" },
+            { name: "Purpose", link: "tel:+92554862354" },
+            { name: "Sustainability", link: "tel:+92554862354" },
+
         ],
     },
     {
-        title: "Get in touch",
+        title: "Promotions & Discounts",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "Student", link: "mailto:customer@nike.com" },
+            { name: "Military", link: "tel:+92554862354" },
+            { name: "Teacher", link: "tel:+92554862354" },
+            { name: "First Responders & Medical Professionals", link: "tel:+92554862354" },
+            { name: "Birthday", link: "tel:+92554862354" },
+
         ],
     },
 ];
@@ -130,3 +154,31 @@ export const footerLinks = [
 //     { src: twitter, alt: "twitter logo" },
 //     { src: instagram, alt: "instagram logo" },
 // ];
+
+// export const cookie = [
+//     {
+//         title:[
+//             {name:"@ 2024 Nike,Inc. All Right Reserved", link: ""},
+//             {name:"Guide ", link:"/"},
+//             {name:"Terms of sale ", link:"/"},
+//             {name:"Terms of Use", link:"/"},
+//             {name:"Nike Privacy Policy", link:"/"},
+//         ]
+//     }
+// ];
+
+
+export const cookie = [
+    {
+        title: "",
+        links: [
+            { name: "Gift Cards", link: "/" },
+            { name: "Find a Store", link: "/" },
+            { name: "Become a Member", link: "/" },
+            { name: "Nike x NBA", link: "/" },
+            { name: "Nike Journal", link: "/" },
+            { name: "Site Feedback", link: "/" },
+        ],
+    },
+
+]
