@@ -5,11 +5,11 @@ import { link } from "fs";
 import { title } from "process";
 
 export const categoryieslinks = [
-    { href: "New & Featured", label: "New & Featured " },
-    { href: "Men", label: "Men" },
-    { href: "Women", label: "Women" },
-    { href: "Kids", label: "Kids" },
-    { href: "Jordan", label: "Jordan" },
+    { href: "Discount codes", label: "Discount codes " },
+    { href: "Top Brands", label: "Top Brands" },
+    { href: "Bestsellers", label: "Bestsellers" },
+    { href: "More", label: "More" },
+  
 ];
 
 export const navlinks = [
@@ -19,6 +19,8 @@ export const navlinks = [
     { href: "Sign In", label: "Sign In  " },
 
 ];
+
+
 // export const shoes = [
 //     {
 //         thumbnail: thumbnailShoe1,
@@ -149,35 +151,17 @@ export const footerLinks = [
     },
 ];
 
-// export const socialMedia = [
-//     { src: facebook, alt: "facebook logo" },
-//     { src: twitter, alt: "twitter logo" },
-//     { src: instagram, alt: "instagram logo" },
-// ];
-
-// export const cookie = [
-//     {
-//         title:[
-//             {name:"@ 2024 Nike,Inc. All Right Reserved", link: ""},
-//             {name:"Guide ", link:"/"},
-//             {name:"Terms of sale ", link:"/"},
-//             {name:"Terms of Use", link:"/"},
-//             {name:"Nike Privacy Policy", link:"/"},
-//         ]
-//     }
-// ];
 
 
 export const cookie = [
     {
         title: "",
         links: [
-            { name: "Gift Cards", link: "/" },
-            { name: "Find a Store", link: "/" },
-            { name: "Become a Member", link: "/" },
-            { name: "Nike x NBA", link: "/" },
-            { name: "Nike Journal", link: "/" },
-            { name: "Site Feedback", link: "/" },
+            { name: "@ 2024 Nike,Inc. All Right Reserved", link: "" },
+            { name: "Guide ", link: "/" },
+            { name: "Terms of sale ", link: "/" },
+            { name: "Terms of Use", link: "/" },
+            { name: "Nike Privacy Policy", link: "/" },
         ],
     },
 
