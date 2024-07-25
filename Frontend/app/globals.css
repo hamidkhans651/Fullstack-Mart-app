@@ -60,4 +60,12 @@ body {
   }
 }
 
+@media only screen and (max-width: 100px) {
+  .grid {
+    /* Adjust the padding as needed */
+    padding: 10px; /* Example value */
+  }
+}
+
+
 

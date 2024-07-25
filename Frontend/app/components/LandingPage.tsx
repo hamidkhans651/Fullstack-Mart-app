@@ -6,7 +6,7 @@ const LandingPage = () => {
   return (
     <div>
       <main className='relative'>
-        <div className='flex justify-end py-[-10] pb-8'>
+        <div className='flex justify-end py-[-10] '>
           <div className='relative  '>
 
             <Image
@@ -15,10 +15,7 @@ const LandingPage = () => {
               width={9000}
               height={9000}
 
-            // Adjust height as per your image aspect ratio
-
-
-
+            // Adjust height as per your image aspect ration
             />
             <div className='absolute inset-7 flex flex-col justify-center items-start text-center text-black  '>
               <h6 className='text-sm md:text-lg lg:text-xl xl:text-2xl'>
@@ -31,10 +28,12 @@ const LandingPage = () => {
                 A specialist label creating luxury essentials. Ethically crafted with an <br />unwavering
                 commitment to exceptional quality.
               </p>
-
-
-              <div className='mt-4'>
-                <button className='flex  items-center px-10 py-4 bg-black text-white gap-4 '>SHOP NOW <FaArrowRight /> </button>
+              <div className='mt-4 '>
+                <div className='mt-4 md:mt-2'>
+                  <button className='flex items-center px-4 md:px-10 py-2 md:py-4 bg-black text-white gap-2 md:gap-4'>
+                    SHOP NOW <FaArrowRight />
+                  </button>
+                </div>
 
               </div>
 
