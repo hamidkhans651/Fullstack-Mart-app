@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+package-name = {extras = ["extra1", "extra2"], version = "^0.1"}
+fastapi-users = {extras = ["oauth", "sqlalchemy"], version = "^13.0.0"}
+oauthlib = "^3.2.2"
 
 
 [build-system]
